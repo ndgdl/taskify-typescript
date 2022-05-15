@@ -66,8 +66,20 @@
   background-color: rgba(50, 195, 205, 0.6)
 }
 
+.drag-active {
+background-color: rgba(50, 195, 205, 0.9)
+}
+
 .remove {
   background-color: rgba(235, 103, 80, 0.6)
+}
+
+.drag-remove {
+  background-color: rgba(235, 103, 80, 0.9)
+}
+
+.drag {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 .todos__heading {
